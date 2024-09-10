@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SmartGenAI",
-  description: "SmartGenAI is the ultimate Ai Studio",
+  title: "GenAI",
+  description: "GenAI is the ultimate Ai Studio",
 };
 
 export default function RootLayout({

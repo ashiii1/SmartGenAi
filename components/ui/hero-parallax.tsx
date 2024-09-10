@@ -119,7 +119,7 @@ export const Header = () => {
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
             <div className="px-9 py-4 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
-              Try SmartGenAI For Free
+              Try GenAI For Free
             </div>
           </button>
         </a>

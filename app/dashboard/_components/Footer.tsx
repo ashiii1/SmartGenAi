@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white p-5 md:p-10 border-t-2 border-gray-700">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="mb-5 md:mb-0">
-          <h2 className="text-2xl font-bold">SmartGenAI</h2>
+          <h2 className="text-2xl font-bold">GenAI</h2>
           <p className="mt-2">
             Supercharge your workflow with the power of AI - all in one place
           </p>
