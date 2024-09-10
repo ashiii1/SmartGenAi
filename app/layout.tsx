@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VOOM",
-  description: "VOOM is the ultimate Ai Studio",
+  title: "SmartGenAI",
+  description: "SmartGenAI is the ultimate Ai Studio",
 };
 
 export default function RootLayout({

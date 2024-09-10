@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white p-5 md:p-10 border-t-2 border-gray-700">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="mb-5 md:mb-0">
-          <h2 className="text-2xl font-bold">VOOM</h2>
+          <h2 className="text-2xl font-bold">SmartGenAI</h2>
           <p className="mt-2">
             Supercharge your workflow with the power of AI - all in one place
           </p>
@@ -16,8 +16,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-10">
           <div>
             <h3 className="font-semibold mb-2">Contact</h3>
-            <p>Email: info@voom.com</p>
-            <p>Phone: (+94)71 277-0284</p>
+            <p>Email: aashishaik526@gmail.com</p>
           </div>
           <div>
             <h3 className="font-semibold mb-2">Links</h3>

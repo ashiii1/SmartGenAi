@@ -139,7 +139,7 @@ function Navbar({ className }: { className?: string }) {
           borderRadius="1.75rem"
           className="bg-white dark:bg-slate-900 text-black dark:text-white text-xl border-neutral-200 dark:border-slate-800"
         >
-          VOOM
+SmartGenAI
         </Button>
         <div className="flex-1 flex justify-center"></div>
         {/* <ModeToggle /> */}
@@ -153,8 +153,8 @@ export default function Home() {
     <div className="min-h-screen dark bg-gray-950 overflow-x-hidden">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <Head>
-        <title>VOOM - AI SaaS Platform</title>
-        <meta name="description" content="VOOM - Your AI SaaS Platform" />
+        <title>SmartGenAI - AI SaaS Platform</title>
+        <meta name="description" content="SmartGenAI - Your AI SaaS Platform" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

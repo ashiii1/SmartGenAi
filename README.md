@@ -1,103 +1,68 @@
-# 🚀 VOOM - Create Your Own AI Content for Free
+# 🌟 SmartGenAI
 
-![Next.js](https://img.shields.io/badge/Next.js-v13-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-v4.9-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v13-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3-blue)
-![SASS](https://img.shields.io/badge/SASS-v1.55-pink)
-![Clerk](https://img.shields.io/badge/Clerk-Auth-green)
+SmartGenAI is a powerful SaaS application designed to help users generate high-quality content across various platforms. Leveraging state-of-the-art AI, it simplifies and accelerates content creation for blogs, YouTube, and more. With seamless integrations and intuitive features, SmartGenAI is a one-stop solution for improving your digital content.
 
-GEMINI AI 1.5 Flash Platform is an advanced AI-driven application that provides customizable AI templates, Clerk authentication, and a built-in text editor for seamless content editing.
+## ✨ Features
 
-## 🌟 Features
+- **Blog Title Generator**: Create captivating and SEO-friendly blog titles.
+- **Blog Content Generator**: Automatically generate entire blog posts tailored to your topic.
+- **Blog Ideas Generator**: Get unique blog ideas to inspire your writing.
+- **YouTube Tag Generator**: Generate relevant tags to boost YouTube video visibility.
+- **YouTube Description Generator**: Craft detailed descriptions to optimize video SEO.
+- **YouTube SEO Title Generator**: Create SEO-optimized titles for better ranking on YouTube.
+- **Article Rewriter**: Instantly rewrite any content for a fresh perspective.
+- **Text Improver**: Enhance text readability and quality, making it more engaging.
 
-- **AI Templates**: Utilize or customize built-in AI templates for various needs.
-- **🛡️ Clerk Authentication**: Secure user authentication and management.
-- **✍️ Built-in Text Editor**: Edit AI-generated content directly on the platform.
-- **📱 Responsive Design**: Modern UI with Next.js, Tailwind CSS, and SASS.
-- **🗄️ Database Integration**: Uses PostgreSQL and Drizzle ORM for data management.
-- **⚙️ TypeScript**: Strongly typed codebase for reliability.
+## 🎯 Use Cases
 
-## 🛠️ Tech Stack
+- **Content Creators**: Generate content ideas, titles, and entire posts with just a few clicks.
+- **YouTubers**: Improve video SEO with AI-powered tags, descriptions, and SEO titles.
+- **Bloggers**: Save time by generating and improving blog content, titles, and ideas instantly.
+- **SEO Professionals**: Optimize content to rank better in search engines, whether for blogs or YouTube.
+- **Marketing Teams**: Scale content production efficiently while maintaining quality.
 
-- **Frontend**: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [SASS](https://sass-lang.com/)
-- **Backend**: Next.js API routes
-- **Database**: [PostgreSQL](https://www.postgresql.org/) with [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm)
-- **Authentication**: [Clerk](https://clerk.dev/)
-- **AI Model**: GEMINI AI 1.5 Flash
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
+## 🛠️ Technologies Used
 
-## 🚀 Getting Started
+- **Next.js**: For building the frontend and server-side rendered pages.
+- **TypeScript**: Ensuring code quality and maintainability.
+- **Tailwind CSS**: For styling and responsive design.
+- **Neon PostgreSQL**: Database management and storage for content.
+- **Stripe**: Integrated payment gateway for seamless user upgrades.
 
-### 📋 Prerequisites
+## 📦 Installation
 
-Ensure you have the following installed:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/username/smartgenai.git
+    cd smartgenai
+    ```
 
-- **Node.js** (v16 or later) - [Download](https://nodejs.org/)
-- **PostgreSQL** - [Download](https://www.postgresql.org/download/)
-- **Git** - [Download](https://git-scm.com/)
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-### ⚙️ Installation
+3. Set up your environment variables by creating a `.env.local` file and adding the following keys:
+    ```
+    DATABASE_URL=your_neon_database_url
+    NEXT_PUBLIC_STRIPE_KEY=your_stripe_public_key
+    STRIPE_SECRET_KEY=your_stripe_secret_key
+    ```
 
-1. **Clone the Repository**
+4. Run the application:
+    ```bash
+    npm run dev
+    ```
 
-   ```bash
-   git clone https://github.com/yourusername/gemini-ai-platform.git
-   cd gemini-ai-platform
-   ```
+## 🌐 Live Demo
 
-2. **Install Dependencies**
+Check out the live demo [here](https://smartgenai.app).
 
-   ```bash
-   npm install
-   ```
+## 🧑‍💻 Contributing
 
-3. **Set Up Environment Variables**
+We welcome contributions! If you'd like to improve the app, please fork the repository, make your changes, and submit a pull request.
 
-   Create a `.env.local` file in the root of the project and add:
+## 📄 License
 
-   ```plaintext
-   DATABASE_URL=your_postgresql_database_url
-   CLERK_FRONTEND_API=your_clerk_frontend_api_key
-   CLERK_API_KEY=your_clerk_backend_api_key
-   GEMINI_API_KEY=your_gemini_ai_api_key
-   ```
+SmartGenAI is licensed under the [MIT License](LICENSE).
 
-4. **Run Database Migrations**
-
-   ```bash
-   npx drizzle-kit db push
-   ```
-
-5. **Start the Development Server**
-
-   ```bash
-   npm run dev
-   ```
-
-   Open your browser and navigate to `http://localhost:3000`.
-
-### 🔧 Available Scripts
-
-- **`npm run dev`**: Starts the development server.
-- **`npm run build`**: Builds the app for production.
-- **`npm run start`**: Runs the app in production mode.
-- **`npm run lint`**: Lints the codebase.
-
-## 💡 Usage
-
-1. **User Authentication**: Sign up or log in using Clerk authentication.
-2. **AI Templates**: Explore or create AI templates tailored to your needs.
-3. **Content Editing**: Use the built-in editor to modify AI-generated content easily.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and open a pull request with your changes.
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
-## 📧 Contact
-
-For support or inquiries, please reach out to [manushadananjaya999@gmail.com](mailto:manushadananjaya999@gmail.com).

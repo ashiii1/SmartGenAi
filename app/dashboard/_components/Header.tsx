@@ -40,13 +40,13 @@ function Header({ toggleSideNav }: { toggleSideNav: () => void }) {
       )}
 
       <div className="hidden sm:block align-middle text-3xl relative font-bold">
-        <a href="/dashboard">VOOM</a>
+        <a href="/dashboard">SmartGenAI</a>
       </div>
       <div className="flex gap-2 items-center p-2 border dark:border-gray-500 rounded-md max-w-lg">
         <Search size={20} />
         <input
           type="text"
-          placeholder="Search in VOOM"
+          placeholder="Search in SmartGenAI"
           className="outline-none bg-transparent text-black dark:text-white"
           value={userSearchInput}
           onChange={handleSearchInputChange}
