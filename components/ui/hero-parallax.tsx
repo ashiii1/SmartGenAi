@@ -281,14 +281,14 @@ export const Header = () => {
     <div className="relative py-16 sm:py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl sm:text-6xl font-extrabold text-white dark:text-white">
-        Prompt and {" "}
-          <FlipWords words={["Access AI-Powered-Text-Refinement", "Discover AI-Driven Blog Ideas quickly", "Receive AI-Driven YouTube Metadata", "Access AI-Powered Text Refinement"]} className="text-white pt-8"/>
+        GenAI-{" "}
+          <FlipWords words={["Access AI-Powered content", "Discover AI-Driven Blog Ideas"]} className="text-white pt-8"/>
         </h2>
-        <p className="mt-4 text-xl text-white dark:text-gray-300">
+        <p className="mt-4 pt-12 text-xl text-white dark:text-gray-300">
           SuperCharge Your Workflow With The Power of AI
         </p>
       </div>
-      <div className="mt-16 flex justify-center">
+      <div className="mt-16 pt-12 flex justify-center">
         <a href="/dashboard">
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />

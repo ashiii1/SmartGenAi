@@ -399,18 +399,18 @@ const sectionthreedata = [
 
 function Navbar({ className }: { className?: string }) {
   return (
-    <div className={cn("fixed top-0 left-0 z-50 w-full px-4 sm:px-6 lg:px-8 shadow-md bg-white dark:bg-slate-900", className)}>
-      <div className="flex justify-between py-4 items-center">
-        <Button className="text-2xl font-bold bg-white dark:bg-slate-900 text-black dark:text-white border-none">
+    <div className={cn("fixed top-0 left-0 z-50 w-full px-4 sm:px-6 lg:px-8 shadow-md bg-black dark:bg-slate-900", className)}>
+      <div className="flex justify-between py-1 items-center">
+        <Button className="text-2xl font-bold bg-slate-800 dark:bg-slate-900 text-white dark:text-white border-none">
           GenAI
         </Button>
-        <nav className="flex space-x-6">
-          <a href="/https://startup-saas-documentation.vercel.app/" className="text-lg font-semibold dark:text-white hover:underline">Docs</a>
-          <a href="#pricing" className="text-lg font-semibold dark:text-white hover:underline">Price</a>
-          <a href="#features" className="text-lg font-semibold dark:text-white hover:underline">Features</a>
-          <a href="#about" className="text-lg font-semibold dark:text-white hover:underline">About Us</a>
-          <a href="#feedback" className="text-lg font-semibold dark:text-white hover:underline">Feedback</a>
-          <a href="#get-started" className="text-lg font-semibold dark:text-white hover:underline">Get Started</a>
+        <nav className="flex bg-black  space-x-6 p-8">
+          <a href="/https://startup-saas-documentation.vercel.app/" className="pr-2 text-lg font-semibold dark:text-white hover:underline">Docs</a>
+          <a href="#pricing" className="pr-2 text-lg font-medium  dark:text-white hover:underline">Price</a>
+          <a href="#features" className=" pr-2 text-lg font-medium  dark:text-white hover:underline">Features</a>
+          <a href="#about" className="pr-2 text-lg font-medium  dark:text-white hover:underline">About Us</a>
+          <a href="#feedback" className="pr-2 text-lg font-medium  dark:text-white hover:underline">Feedback</a>
+          <a href="/dashboard" className="pr-2 text-lg font-medium bg-gray-800 rounded-lg dark:text-white hover:underline">Get Started</a>
         </nav>
       </div>
     </div>
@@ -430,12 +430,12 @@ export default function Home() {
 <section id="#" className="h-screen flex flex-col justify-center items-center relative bg-slate-900 text-white">
   <Navbar className="text-white" />
   <HeroParallax products={Items} />
-  <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 opacity-70 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+  <div className="absolute inset-0 flex items-center justify-center pointer-events-none  bg-slate-900 opacity-70 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 </section>
 
 
    {/* Section 4: Features */}
-<section id="features" className="bg-slate-900 py-12">
+<section id="features" className="bg-slate-800 py-12">
   <div className="max-w-6xl mx-auto px-4">
     <h2 className="text-3xl font-bold text-white mb-8 text-center">Features</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -465,7 +465,7 @@ export default function Home() {
 </section>
 
 {/* Section 3: Infinite Moving Cards */}
-<section id="feedback" className="flex flex-col justify-center items-center py-6 bg-slate-700">
+<section id="feedback" className="flex flex-col justify-center items-center py-6 bg-slate-900">
   <div className="rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden max-w-4xl w-full">
     <InfiniteMovingCards items={slideMoveContent} direction="right" speed="slow" />
   </div>
