@@ -22,13 +22,13 @@ const Footer = () => {
             <h3 className="font-semibold mb-2">Links</h3>
             <ul className="list-none">
               <li className="mb-2">
-                <Link href="/about">About Us</Link>
+                <Link href="/">About Us</Link>
               </li>
               <li className="mb-2">
-                <Link href="/services">Services</Link>
+                <Link href="/">Services</Link>
               </li>
               <li className="mb-2">
-                <Link href="/contact">Contact</Link>
+                <Link href="/">Contact</Link>
               </li>
             </ul>
           </div>
