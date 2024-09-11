@@ -282,7 +282,7 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl sm:text-6xl font-extrabold text-white dark:text-white">
         Prompt and {" "}
-          <FlipWords words={["Access AI-Powered Text Refinement", "Discover AI-Driven Blog Ideas", "Receive AI-Driven YouTube Metadata", "Access AI-Powered Text Refinement"]} className="text-white"/>
+          <FlipWords words={["Access AI-Powered-Text-Refinement", "Discover AI-Driven Blog Ideas quickly", "Receive AI-Driven YouTube Metadata", "Access AI-Powered Text Refinement"]} className="text-white pt-8"/>
         </h2>
         <p className="mt-4 text-xl text-white dark:text-gray-300">
           SuperCharge Your Workflow With The Power of AI
