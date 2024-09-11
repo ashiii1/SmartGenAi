@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-10">
-        <p>&copy; {new Date().getFullYear()} VOOM. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} GenAI. All rights reserved.</p>
       </div>
     </footer>
   );
