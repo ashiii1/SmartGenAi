@@ -232,7 +232,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 dark:bg-grid-gray-800/[0.2] overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] text-white py-40 dark:bg-grid-gray-800/[0.2] overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -244,7 +244,7 @@ export const HeroParallax = ({
         }}
         className=""
       >
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
+        <motion.div className="flex text-white flex-row-reverse space-x-reverse space-x-20 mb-20">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -262,7 +262,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
+        <motion.div className="flex flex-row-reverse text-white space-x-reverse space-x-20">
           {thirdRow.map((product) => (
             <ProductCard
               product={product}
@@ -278,13 +278,13 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="relative z-30 py-16 sm:py-24 lg:py-32">
+    <div className="relative py-16 sm:py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl sm:text-6xl font-extrabold text-black dark:text-white">
-          Examine the Potential of{" "}
-          <FlipWords words={["Ai Chatting", "Ai Writing"]} />
+        <h2 className="text-4xl sm:text-6xl font-extrabold text-white dark:text-white">
+        Prompt and {" "}
+          <FlipWords words={["Access AI-Powered Text Refinement", "Discover AI-Driven Blog Ideas", "Receive AI-Driven YouTube Metadata", "Access AI-Powered Text Refinement"]} className="text-white"/>
         </h2>
-        <p className="mt-4 text-xl text-gray-300 dark:text-gray-300">
+        <p className="mt-4 text-xl text-white dark:text-gray-300">
           SuperCharge Your Workflow With The Power of AI
         </p>
       </div>
@@ -292,7 +292,7 @@ export const Header = () => {
         <a href="/dashboard">
           <button className="p-[3px] relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-            <div className="px-9 py-4 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
+            <div className="px-9 py-4  bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
               Try GenAI For Free
             </div>
           </button>
