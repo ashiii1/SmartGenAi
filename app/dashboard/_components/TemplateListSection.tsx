@@ -35,7 +35,7 @@ function TemplateListSection({ userSearchInput }: { userSearchInput: string }) {
   return (
     <div className="p-4 sm:p-6 lg:p-10">
       {templateList.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {templateList.map((item: TEMPLATE) => (
             <HoverEffect
               key={item.slug}

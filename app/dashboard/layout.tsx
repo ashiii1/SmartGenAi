@@ -26,7 +26,12 @@ function Layout({ children }: { children: React.ReactNode }) {
       >
         <SearchContext.Provider value={{ userSearchInput, setUserSearchInput }}>
           <Suspense fallback={<Loading />}>
-            <div className="min-h-screen flex flex-col dark:bg-slate-950 bg-slate-100">
+            <div className="min-h-screen flex flex-col dark:bg-slate-950 bg-black"  style={{
+    backgroundImage: 'url(https://i.pinimg.com/originals/6d/19/7b/6d197b048d6fdfbaee6a24963d6b7eed.gif)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  }}>
               <div
                 className={`fixed z-50 transition-transform ${
                   isSideNavOpen ? "translate-x-0" : "-translate-x-full"

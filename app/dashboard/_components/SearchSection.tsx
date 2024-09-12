@@ -12,7 +12,7 @@ function SearchSection() {
   };
 
   return (
-    <div className="p-10 bg-gradient-to-br from-pink-500 via-blue-700 to-blue-600 flex flex-col justify-center items-center text-white">
+    <div className="p-10 bg-gradient-to-br from-black via-violet-950 to-black flex flex-col justify-center items-center text-white">
       <h2 className="text-2xl sm:text-3xl font-bold">Browse all templates</h2>
       <p className="mt-2">What would you like to create today?</p>
       <div className="w-full flex justify-center mt-5">

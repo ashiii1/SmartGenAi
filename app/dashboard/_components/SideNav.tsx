@@ -44,7 +44,7 @@ function SideNav({
           <a href={item.link} key={index}>
             <div
               className={`flex items-center space-x-2 p-2 my-4 rounded-lg hover:bg-slate-400 dark:hover:bg-slate-700 hover:text-white cursor-pointer ${
-                path === item.link ? "bg-gray-700 dark:bg-slate-500 text-white " : ""
+                path === item.link ? "bg-gray-900 dark:bg-slate-300 text-white " : ""
               }`}
             >
               <item.icon size={20} />

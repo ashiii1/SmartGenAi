@@ -427,7 +427,13 @@ export default function Home() {
       </Head>
 
       {/* Section 1: Navbar and Hero */}
-<section id="#" className="h-screen flex flex-col justify-center items-center relative bg-slate-900 text-white">
+<section id="#"  style={{
+    backgroundImage: 'url(https://i.pinimg.com/564x/3b/92/a7/3b92a76bba0404a46422d5b6a2d2b382.jpg)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  }}
+className="h-screen flex flex-col justify-center items-center relative bg-slate-900 text-white">
   <Navbar className="text-white" />
   <HeroParallax products={Items} />
   <div className="absolute inset-0 flex items-center justify-center pointer-events-none  bg-slate-900 opacity-70 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
@@ -435,7 +441,7 @@ export default function Home() {
 
 
    {/* Section 4: Features */}
-<section id="features" className="bg-slate-800 py-12">
+<section id="features" className="bg-slate-950 py-12" >
   <div className="max-w-6xl mx-auto px-4">
     <h2 className="text-3xl font-bold text-white mb-8 text-center">Features</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
