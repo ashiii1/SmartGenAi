@@ -12,7 +12,12 @@ function SearchSection() {
   };
 
   return (
-    <div className="p-10 bg-gradient-to-br from-black via-violet-950 to-black flex flex-col justify-center items-center text-white">
+    <div  className="p-10 bg-gradient-to-br from-black via-violet-950 to-black flex flex-col justify-center items-center text-white" style={{
+      backgroundImage: 'url(https://i.pinimg.com/originals/6d/19/7b/6d197b048d6fdfbaee6a24963d6b7eed.gif)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }} >
       <h2 className="text-2xl sm:text-3xl font-bold">Browse all templates</h2>
       <p className="mt-2">What would you like to create today?</p>
       <div className="w-full flex justify-center mt-5">

@@ -288,12 +288,22 @@ export const Header = () => {
           SuperCharge Your Workflow With The Power of AI
         </p>
       </div>
-      <div className="mt-16 pt-12 flex justify-center">
+      <div className="mt-16 pt-12 flex cursor-pointer justify-center">
         <a href="/dashboard">
-          <button className="p-[3px] relative">
+          <button className="p-[3px] cursor-pointer relative">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-            <div className="px-9 py-4  bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
+            <div className="px-9 py-4 cursor-pointer bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
               Try GenAI For Free
+            </div>
+          </button>
+        </a>
+      </div>
+      <div className="mt-16 pt-12 flex cursor-pointer justify-center">
+        <a href="/d">
+          <button className="p-[3px] cursor-pointer relative">
+            <div className="absolute inset-0 rounded-lg" />
+            <div className="px-9 py-4 cursor-pointer text-2xl font-bold rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
+              Scroll down to more about GenAI
             </div>
           </button>
         </a>
