@@ -37,7 +37,7 @@ function SideNav({
   return (
     <div className="h-screen relative p-5 shadow-sm bg-white dark:bg-gray-800 border z-50">
       <div className="flex justify-center border-b">
-        <Image src="/logo.svg" width={120} height={100} alt="logo" />
+        <Image src="/amds.png" width={120} height={100} alt="logo" />
       </div>
       <div className="mt-10">
         {MenuList.map((item, index) => (
