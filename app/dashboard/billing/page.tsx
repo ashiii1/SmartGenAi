@@ -7,7 +7,7 @@ function Billing() {
       <h1 className="text-3xl font-bold mb-8">Upgrade now</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl">
         <div className="bg-white dark:bg-gray-800 border dark:border-gray-500 p-6 rounded-lg shadow-lg flex flex-col items-center">
-          <h2 className="text-xl font-semibold mb-2">Free</h2>
+          <h2 className="text-xl font-bold mb-2">Free</h2>
           <p className="text-2xl font-bold mb-1">0$</p>
           <span className="text-gray-500 mb-4">/month</span>
           <div className="flex flex-col items-center">
@@ -27,7 +27,7 @@ function Billing() {
           <Button className="mt-auto">Currently Active Plan</Button>
         </div>
         <div className="bg-white dark:bg-gray-800 border dark:border-gray-500 p-6 rounded-lg shadow-lg flex flex-col items-center">
-          <h2 className="text-xl font-semibold mb-2">Monthly</h2>
+          <h2 className="text-xl font-bold mb-2">Monthly</h2>
           <p className="text-2xl font-bold mb-1">9.99$</p>
           <span className="text-gray-500 mb-4">/month</span>
           <div className="flex flex-col items-center">
@@ -49,7 +49,7 @@ function Billing() {
           </Button>
         </div>
         <div className="bg-white dark:bg-gray-800 border dark:border-gray-500 p-6 rounded-lg shadow-lg flex flex-col items-center">
-          <h2 className="text-xl font-semibold mb-2">Yearly</h2>
+          <h2 className="text-xl font-bold mb-2">Yearly</h2>
           <p className="text-2xl font-bold mb-1">99.99$</p>
           <span className="text-gray-500 mb-4">/year</span>
           <div className="flex flex-col items-center">

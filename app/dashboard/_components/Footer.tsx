@@ -15,11 +15,11 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row gap-10">
           <div>
-            <h3 className="font-semibold mb-2">Contact</h3>
+            <h3 className="font-bold mb-2">Contact</h3>
             <p>Email: aashishaik526@gmail.com</p>
           </div>
           <div>
-            <h3 className="font-semibold mb-2">Links</h3>
+            <h3 className="font-bold mb-2">Links</h3>
             <ul className="list-none">
               <li className="mb-2">
                 <Link href="/">About Us</Link>
@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-2">Follow Us</h3>
+            <h3 className="font-bold mb-2">Follow Us</h3>
             <div className="flex gap-3">
               <a
                 href="https://facebook.com"

@@ -50,13 +50,13 @@
 // //           GenAI
 // //         </Button>
 // //         <nav className="flex space-x-6">
-// //           <a href="/https://startup-saas-documentation.vercel.app/" className="text-lg font-semibold dark:text-white hover:underline">Docs</a>
-// //           <a href="#pricing" className="text-lg font-semibold dark:text-white hover:underline">Price</a>
-// //           <a href="#features" className="text-lg font-semibold dark:text-white hover:underline">Features</a>
-// //           <a href="#about" className="text-lg font-semibold dark:text-white hover:underline">About Us</a>
-// //           <a href="#feedback" className="text-lg font-semibold dark:text-white hover:underline">Feedback</a>
+// //           <a href="/https://startup-saas-documentation.vercel.app/" className="text-lg font-bold dark:text-white hover:underline">Docs</a>
+// //           <a href="#pricing" className="text-lg font-bold dark:text-white hover:underline">Price</a>
+// //           <a href="#features" className="text-lg font-bold dark:text-white hover:underline">Features</a>
+// //           <a href="#about" className="text-lg font-bold dark:text-white hover:underline">About Us</a>
+// //           <a href="#feedback" className="text-lg font-bold dark:text-white hover:underline">Feedback</a>
 
-// //           <a href="#get-started" className="text-lg font-semibold dark:text-white hover:underline">Get Started</a>
+// //           <a href="#get-started" className="text-lg font-bold dark:text-white hover:underline">Get Started</a>
 // //         </nav>
 // //       </div>
 // //     </div>
@@ -94,7 +94,7 @@
 // //         <h1 className="text-4xl pb-7 my-10 sm:text-6xl font-extrabold dark:text-white">Subscribe to Explore More</h1>
 // //         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-around gap-6 p-4">
 // //           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-zinc-900">
-// //             <h2 className="text-xl font-semibold mb-2">Free</h2>
+// //             <h2 className="text-xl font-bold mb-2">Free</h2>
 // //             <p className="text-2xl font-bold mb-1">0$</p>
 // //             <span className="text-gray-500 mb-4">/month</span>
 // //             <div className="flex flex-col items-center">
@@ -117,7 +117,7 @@
 // //           </BackgroundGradient>
 
 // //           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-zinc-900">
-// //             <h2 className="text-xl font-semibold mb-2">Monthly</h2>
+// //             <h2 className="text-xl font-bold mb-2">Monthly</h2>
 // //             <p className="text-2xl font-bold mb-1">9.99$</p>
 // //             <span className="text-gray-500 mb-4">/month</span>
 // //             <div className="flex flex-col items-center">
@@ -141,7 +141,7 @@
 // //           </BackgroundGradient>
 
 // //           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-zinc-900">
-// //             <h2 className="text-xl font-semibold mb-2">Yearly</h2>
+// //             <h2 className="text-xl font-bold mb-2">Yearly</h2>
 // //             <p className="text-2xl font-bold mb-1">99.99$</p>
 // //             <span className="text-gray-500 mb-4">/year</span>
 // //             <div className="flex flex-col items-center">
@@ -224,12 +224,12 @@
 //           GenAI
 //         </Button>
 //         <nav className="flex space-x-6">
-//           <a href="/https://startup-saas-documentation.vercel.app/" className="text-lg font-semibold dark:text-white hover:underline">Docs</a>
-//           <a href="#pricing" className="text-lg font-semibold dark:text-white hover:underline">Price</a>
-//           <a href="#features" className="text-lg font-semibold dark:text-white hover:underline">Features</a>
-//           <a href="#about" className="text-lg font-semibold dark:text-white hover:underline">About Us</a>
-//           <a href="#feedback" className="text-lg font-semibold dark:text-white hover:underline">Feedback</a>
-//           <a href="#get-started" className="text-lg font-semibold dark:text-white hover:underline">Get Started</a>
+//           <a href="/https://startup-saas-documentation.vercel.app/" className="text-lg font-bold dark:text-white hover:underline">Docs</a>
+//           <a href="#pricing" className="text-lg font-bold dark:text-white hover:underline">Price</a>
+//           <a href="#features" className="text-lg font-bold dark:text-white hover:underline">Features</a>
+//           <a href="#about" className="text-lg font-bold dark:text-white hover:underline">About Us</a>
+//           <a href="#feedback" className="text-lg font-bold dark:text-white hover:underline">Feedback</a>
+//           <a href="#get-started" className="text-lg font-bold dark:text-white hover:underline">Get Started</a>
 //         </nav>
 //       </div>
 //     </div>
@@ -266,7 +266,7 @@
 //         <h1 className="text-4xl pb-7 my-10 sm:text-6xl font-extrabold dark:text-white">Subscribe to Explore More</h1>
 //         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-around gap-6 p-4">
 //           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-//             <h2 className="text-2xl font-semibold mb-2">Free</h2>
+//             <h2 className="text-2xl font-bold mb-2">Free</h2>
 //             <p className="text-5xl font-bold mb-1">0$</p>
 //             <span className="text-gray-500 mb-4 text-xl">/month</span>
 //             <div className="flex flex-col items-start space-y-2">
@@ -289,7 +289,7 @@
 //           </BackgroundGradient>
 
 //           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-//             <h2 className="text-2xl font-semibold mb-2">Monthly</h2>
+//             <h2 className="text-2xl font-bold mb-2">Monthly</h2>
 //             <p className="text-5xl font-bold mb-1">9.99$</p>
 //             <span className="text-gray-500 mb-4 text-xl">/month</span>
 //             <div className="flex flex-col items-start space-y-2">
@@ -313,7 +313,7 @@
 //           </BackgroundGradient>
 
 //           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-//             <h2 className="text-2xl font-semibold mb-2">Yearly</h2>
+//             <h2 className="text-2xl font-bold mb-2">Yearly</h2>
 //             <p className="text-5xl font-bold mb-1">99.99$</p>
 //             <span className="text-gray-500 mb-4 text-xl">/year</span>
 //             <div className="flex flex-col items-start space-y-2">
@@ -405,7 +405,7 @@ function Navbar({ className }: { className?: string }) {
           GenAI
         </Button>
         <nav className="flex bg-black  space-x-6 p-8">
-          <a href="/https://startup-saas-documentation.vercel.app/" className="pr-2 text-lg font-semibold dark:text-white hover:underline">Docs</a>
+          <a href="/https://startup-saas-documentation.vercel.app/" className="pr-2 text-lg font-bold dark:text-white hover:underline">Docs</a>
           <a href="#pricing" className="pr-2 text-lg font-medium  dark:text-white hover:underline">Price</a>
           <a href="#features" className=" pr-2 text-lg font-medium  dark:text-white hover:underline">Features</a>
           <a href="#about" className="pr-2 text-lg font-medium  dark:text-white hover:underline">About Us</a>
@@ -456,7 +456,7 @@ export default function Home() {
             {index === 7 && "📈"}
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
+            <h3 className="text-lg font-bold text-gray-900">{item.title}</h3>
           </div>
         </a>
       ))}
@@ -477,7 +477,7 @@ export default function Home() {
         <h1 className="text-4xl pb-7 my-10 sm:text-6xl font-extrabold dark:text-white">Subscribe to Explore More</h1>
         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-around gap-6 p-4">
           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-            <h2 className="text-2xl font-semibold mb-2">Free</h2>
+            <h2 className="text-2xl font-bold mb-2">Free</h2>
             <p className="text-5xl font-bold mb-1">0$</p>
             <span className="text-gray-500 mb-4 text-xl">/month</span>
             <div className="flex flex-col items-start space-y-2">
@@ -500,7 +500,7 @@ export default function Home() {
           </BackgroundGradient>
 
           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-            <h2 className="text-2xl font-semibold mb-2">Monthly</h2>
+            <h2 className="text-2xl font-bold mb-2">Monthly</h2>
             <p className="text-5xl font-bold mb-1">9.99$</p>
             <span className="text-gray-500 mb-4 text-xl">/month</span>
             <div className="flex flex-col items-start space-y-2">
@@ -524,7 +524,7 @@ export default function Home() {
           </BackgroundGradient>
 
           <BackgroundGradient className="rounded-[22px] max-w-md p-8 sm:p-12 bg-zinc-900">
-            <h2 className="text-2xl font-semibold mb-2">Yearly</h2>
+            <h2 className="text-2xl font-bold mb-2">Yearly</h2>
             <p className="text-5xl font-bold mb-1">99.99$</p>
             <span className="text-gray-500 mb-4 text-xl">/year</span>
             <div className="flex flex-col items-start space-y-2">
